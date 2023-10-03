@@ -1,0 +1,23 @@
+package com.ahmad.plugins.firstplugin;
+
+import org.apache.log4j.Logger;
+
+import com.appiancorp.services.ServiceContext;
+import com.appiancorp.suiteapi.expression.annotations.Function;
+
+@AhmadFunctionsCategory
+public class ReturnEnglishMonthsNamesClass {
+
+	public final static String[] MONTHS_NAMES = {  "Muharram", "Safar",
+		"Rabiul Awwal", "Rabiul Akhir", "Jumadal Ula", "Jumadal Akhira",
+		"Rajab", "Shaaban", "Ramadhan", "Shawwal", "Dhulqaada", "Dhulhijja" };
+	
+	private static final Logger LOG = Logger
+			.getLogger(ReturnEnglishMonthsNamesClass.class);
+
+	@Function
+	public String[] ReturnEnglishMonthsNames(ServiceContext sc) {
+		return MONTHS_NAMES;
+	}
+
+}
