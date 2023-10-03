@@ -1,11 +1,11 @@
-package com.ahmad.plugins.firstplugin;
+package com.appiancorp.islamicdates;
 
 import org.apache.log4j.Logger;
 
 import com.appiancorp.services.ServiceContext;
 import com.appiancorp.suiteapi.expression.annotations.Function;
 
-@AhmadFunctionsCategory
+@IslamicDateFunctionsCategory
 public class ReturnEnglishMonthsNamesClass {
 
 	public final static String[] MONTHS_NAMES = {  "Muharram", "Safar",

@@ -1,5 +1,4 @@
-package com.ahmad.plugins.firstplugin;
-
+package com.appiancorp.islamicdates;
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -9,11 +8,11 @@ import java.lang.annotation.Target;
 
 import com.appiancorp.suiteapi.expression.annotations.Category;
 
-@Category("AhmadFunctionsCategory")
+@Category("islamicDateFunctionsCategory")
 @Inherited
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ ElementType.METHOD, ElementType.TYPE })
-public @interface AhmadFunctionsCategory {
+@Target({ElementType.METHOD, ElementType.TYPE})
+public @interface IslamicDateFunctionsCategory {
 
 }

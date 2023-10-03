@@ -1,4 +1,4 @@
-package com.ahmad.plugins.firstplugin;
+package com.appiancorp.islamicdates;
 
 import java.sql.Date;
 import java.util.Calendar;
@@ -10,7 +10,7 @@ import com.appiancorp.services.ServiceContext;
 import com.appiancorp.suiteapi.expression.annotations.Function;
 import com.appiancorp.suiteapi.expression.annotations.Parameter;
 
-@AhmadFunctionsCategory
+@IslamicDateFunctionsCategory
 public class AppianDateTOUmAlQuraConversionWithArabicName {
 
 	private static final Logger LOG = Logger

@@ -1,34 +1,27 @@
-<appian-plugin name="Ahmad Plug-ins playground" key="com.ahmad.plugins.firstplugin">
+<appian-plugin name="Standard Um Al Qura Calculations" key="com.appiancorp.islamicdates">
+
 
   <plugin-info>
-    <description>Ahmad plugins test playground</description>
-    <vendor name="Ahmad.Albuthom" url="https://github.com/ahmad244" />
-    <version>1.0.0.6</version>
-    <application-version min="17.2" />
+    <description>Standard Um Al Qura Calculations</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.1</version>
+    <application-version min="6.1.0" />
   </plugin-info>
 
 
-  <function-category key="AhmadFunctionsCategory" name="Ahmad Functions Category" />
+  <function-category key="islamicDateFunctionsCategory" name="Islamic Date Functions"/>
+  <function key="convertgregoriantoummalqura" class="com.appiancorp.islamicdates.AppianDateToUmAlQuraConversion"/>
 
-  <function key="sumOfTwoNumbers" class="com.ahmad.plugins.firstplugin.SumOfTwoNumbersCLass" />
+  <function key="convertgregoriantoumalqurawitharabicmonth" class="com.appiancorp.islamicdates.AppianDateTOUmAlQuraConversionWithArabicName"/>
 
-  <function key="convertgregoriantoummalqura"
-    class="com.ahmad.plugins.firstplugin.AppianDateToUmAlQuraConversion" />
+  <function key="AppianDateTOUmAlQuraConversionWithEnglishName" class="com.appiancorp.islamicdates.AppianDateTOUmAlQuraConversionWithEnglishNameClass"/>
 
-  <function key="convertgregoriantoumalqurawitharabicmonth"
-    class="com.ahmad.plugins.firstplugin.AppianDateTOUmAlQuraConversionWithArabicName" />
+  <function key="returnarabicislamicmonths" class="com.appiancorp.islamicdates.ReturnArabicMonthsNames"/>
 
-  <function key="AppianDateTOUmAlQuraConversionWithEnglishName"
-    class="com.ahmad.plugins.firstplugin.AppianDateTOUmAlQuraConversionWithEnglishNameClass" />
+  <function key="ReturnEnglishMonthsNames" class="com.appiancorp.islamicdates.ReturnEnglishMonthsNamesClass"/>
 
-  <function key="returnarabicislamicmonths"
-    class="com.ahmad.plugins.firstplugin.ReturnArabicMonthsNames" />
+  <function key="convertummalquratogregorian" class="com.appiancorp.islamicdates.UmAlquraToGregorian"/>
 
-  <function key="ReturnEnglishMonthsNames"
-    class="com.ahmad.plugins.firstplugin.ReturnEnglishMonthsNamesClass" />
-
-  <function key="convertummalquratogregorian"
-    class="com.ahmad.plugins.firstplugin.UmAlquraToGregorian" />
 
 
 </appian-plugin>

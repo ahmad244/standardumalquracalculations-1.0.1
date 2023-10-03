@@ -1,4 +1,4 @@
-package com.ahmad.plugins.firstplugin;
+package com.appiancorp.islamicdates;
 
 import org.apache.log4j.Logger;
 
@@ -6,7 +6,7 @@ import com.appiancorp.services.ServiceContext;
 import com.appiancorp.suiteapi.expression.annotations.Function;
 import org.apache.commons.lang.StringEscapeUtils;
 
-@AhmadFunctionsCategory
+@IslamicDateFunctionsCategory
 public class ReturnArabicMonthsNames {
 
 	public final static String[] MONTHS_ARABIC_NAMES = {   "محرم", "سفر",
