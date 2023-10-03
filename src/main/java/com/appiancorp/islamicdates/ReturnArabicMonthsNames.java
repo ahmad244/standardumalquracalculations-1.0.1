@@ -1,6 +1,6 @@
 package com.appiancorp.islamicdates;
 
-import org.apache.log4j.Logger;
+// import org.apache.log4j.Logger;
 
 import com.appiancorp.services.ServiceContext;
 import com.appiancorp.suiteapi.expression.annotations.Function;
@@ -13,8 +13,8 @@ public class ReturnArabicMonthsNames {
 		"ربيع الأول", "ربيع الثاني", "جمادة الأول", "جمادة الثاني", "رجب",
 		"شعبان", "رمضان", "شوال", "ذو القعدة", "ذو الحجة" };
 	
-	private static final Logger LOG = Logger
-			.getLogger(ReturnArabicMonthsNames.class);
+	// private static final Logger LOG = Logger
+	// 		.getLogger(ReturnArabicMonthsNames.class);
 
 	@Function
 	public String[] returnarabicislamicmonths(ServiceContext sc) {

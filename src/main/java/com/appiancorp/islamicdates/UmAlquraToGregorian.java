@@ -2,7 +2,7 @@ package com.appiancorp.islamicdates;
 
 import java.sql.Date;
 
-import org.apache.log4j.Logger;
+// import org.apache.log4j.Logger;
 
 import com.appiancorp.dateconversion.HijriCalendar;
 import com.appiancorp.services.ServiceContext;
@@ -12,8 +12,8 @@ import com.appiancorp.suiteapi.expression.annotations.Parameter;
 @IslamicDateFunctionsCategory
 public class UmAlquraToGregorian {
 
-	private static final Logger LOG = Logger
-			.getLogger(UmAlquraToGregorian.class);
+	// private static final Logger LOG = Logger
+	// 		.getLogger(UmAlquraToGregorian.class);
 
 	@Function
 	public Date convertummalquratogregorian(ServiceContext sc,

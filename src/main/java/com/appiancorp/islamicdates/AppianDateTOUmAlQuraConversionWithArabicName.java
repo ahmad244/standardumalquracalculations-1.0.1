@@ -3,7 +3,7 @@ package com.appiancorp.islamicdates;
 import java.sql.Date;
 import java.util.Calendar;
 
-import org.apache.log4j.Logger;
+// import org.apache.log4j.Logger;
 
 import com.appiancorp.dateconversion.HijriCalendar;
 import com.appiancorp.services.ServiceContext;
@@ -13,8 +13,8 @@ import com.appiancorp.suiteapi.expression.annotations.Parameter;
 @IslamicDateFunctionsCategory
 public class AppianDateTOUmAlQuraConversionWithArabicName {
 
-	private static final Logger LOG = Logger
-			.getLogger(AppianDateTOUmAlQuraConversionWithArabicName.class);
+	// private static final Logger LOG = Logger
+	// 		.getLogger(AppianDateTOUmAlQuraConversionWithArabicName.class);
 
 	@Function
 	public String convertgregoriantoumalqurawitharabicmonth(ServiceContext sc,

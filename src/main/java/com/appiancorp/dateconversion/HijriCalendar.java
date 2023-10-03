@@ -341,10 +341,10 @@ public class HijriCalendar {
 	}
 
 	public static void main(String args[]) {
-		HijriCalendar hjCal = new HijriCalendar();
+		// HijriCalendar hjCal = new HijriCalendar();
 
-		System.out.println(hjCal.getHijriDate_ArabicMonthName(Calendar.getInstance()));
-		System.out.println(hjCal.getGregorianDateFromUmALQura(1452, 1, 1));
+		// System.out.println(hjCal.getHijriDate_ArabicMonthName(Calendar.getInstance()));
+		// System.out.println(hjCal.getGregorianDateFromUmALQura(1452, 1, 1));
 
 	}
 }

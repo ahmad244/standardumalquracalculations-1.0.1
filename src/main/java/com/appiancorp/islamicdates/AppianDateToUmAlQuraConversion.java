@@ -5,7 +5,7 @@ import java.util.Calendar;
 
 import com.appiancorp.dateconversion.HijriCalendar;
 
-import org.apache.log4j.Logger;
+// import org.apache.log4j.Logger;
 
 import com.appiancorp.services.ServiceContext;
 import com.appiancorp.suiteapi.expression.annotations.Function;
@@ -14,8 +14,8 @@ import com.appiancorp.suiteapi.expression.annotations.Parameter;
 @IslamicDateFunctionsCategory
 public class AppianDateToUmAlQuraConversion {
 
-	private static final Logger LOG = Logger
-			.getLogger(AppianDateToUmAlQuraConversion.class);
+	// private static final Logger LOG = Logger
+	// 		.getLogger(AppianDateToUmAlQuraConversion.class);
 
 			@Function
 			public String convertgregoriantoummalqura(ServiceContext sc,
