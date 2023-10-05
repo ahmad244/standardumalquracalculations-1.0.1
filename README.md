@@ -11,3 +11,6 @@ Provides users with a set of functions to convert between Gregorian and Um Al Qu
 * convertummalquratogregorian() - Converts Um Al Qura date to a standard date object.
 * returnarabicislamicmonths() - Returns a list of Islamic months in Arabic.
 * returnenglishmonthsnames() Returns a list of Islamic months in English.
+
+
+[link to Appian AppMarket plugin page](https://community.appian.com/b/appmarket/posts/um-al-qura-calendar-conversion)
