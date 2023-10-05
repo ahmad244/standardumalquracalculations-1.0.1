@@ -1,26 +1,11 @@
 # PLUG-IN NAME
-PLUG-IN DESCRIPTION
+Provides users with a set of functions to convert between Gregorian and Um Al Qura Islamic calendars
 
-## NAME Smart Service
-SMART SERVICE DESCRIPTION
 
-### Data Tab
-| Input               | Data Type | Required | Multiple | Description |
-| ------------------- |:---------:|:--------:|:--------:| ----------- |
-| Input One           | Boolean   | Yes      | No       | My Description |
-| Input Two           | Text      | No       | No       | My Description |
 
-| Output              | Data Type | Multiple | Description |
-| --------------------|:---------:|:--------:| ----------- |
-| Output One          | Document  | No       | My Description |
-| Output Two          | Boolean   | No       | My Description |
-
-## NAME Function
-FUNCTION DESCRIPTION
-
-### Syntax ###
-`myFunctionName(inputOne, inputTwo)`
-
-### Inputs ###
-- inputOne: (DATA TYPE) DESCRIPTION
-- inputTwo: (DATA TYPE) Optional: DESCRIPTION
+* appiandatetoumalquraconversionwithenglishname() - Converts Appian standard date object to Um Al Qura.  The returned format contains the month name in English
+* convertgregoriantoumalqurawitharabicmonth() = Converts Appian standard date object to Um Al Qura.  The returned format contains the month name in Arabic.
+* convertgregoriantoummalqura() - Converts standard date object to Um Al Qura date string.
+* convertummalquratogregorian() - Converts Um Al Qura date to a standard date object.
+* returnarabicislamicmonths() - Returns a list of Islamic months in Arabic.
+* returnenglishmonthsnames() Returns a list of Islamic months in English.
