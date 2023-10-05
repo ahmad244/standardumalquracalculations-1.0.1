@@ -1,4 +1,4 @@
-# PLUG-IN NAME
+# Um Al Qura Calendar Conversion
 Provides users with a set of functions to convert between Gregorian and Um Al Qura Islamic calendars
 
 
