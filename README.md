@@ -1,4 +1,6 @@
-# Um Al Qura Calendar Conversion
+### * I am not the original author of this plugin, I just upgraded the code and fixed an issue with the "convertummalquratogregorian" not converting hijri dates past the year 1451 hijri (around 2029 Gregorian)
+
+## Um Al Qura Calendar Conversion
 Provides users with a set of functions to convert between Gregorian and Um Al Qura Islamic calendars
 
 
